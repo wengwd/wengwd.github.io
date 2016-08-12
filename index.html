@@ -1,12 +1,48 @@
-<!DOCTYPE>
-<html lang="en">
+<!DOCTYPE HTML>
+<html xmlns:wb="http://open.weibo.com/wb">
 <head>
-	<meta charset="UTF-8">
-	<title>practice!</title>
-	<link rel="stylesheet" href="pra.css">
+    <meta charset="UTF-8">
+    <title>中午吃什么</title>
+    <meta name="keywords" content="中午吃什么" />
+    <meta name="description" content="中午吃什么" />
+    <link rel="stylesheet" href="default.css">
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 </head>
+
 <body>
-老师这样算完成了作业吗？
-	--翁炜东
+
+    <div id="wrapper">
+        <h1>
+            中午吃什么，吃什么？
+            <br>
+            <br>
+            <b style="color:#FF9733" id="what"></b>
+        </h1>
+        <input type="button" value="开始" id="start" />
+    </div>
+
+    <textarea rows="9" cols="53" id="list" style="display:none">
+                西区一楼 东区一楼 商业街 自己煮 西区二楼 东区二楼 东区三楼
+    </textarea>
+
+	<!-- <div id="weibo">
+		<wb:follow-button uid="1650984392" type="gray_1" width="67" height="24" ></wb:follow-button>
+	</div> -->
+
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="random.js"></script>
+
+    <!-- google-analytics code -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71978237-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- google-analytics code end -->
+
 </body>
 </html>
